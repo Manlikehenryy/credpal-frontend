@@ -18,12 +18,12 @@ const Home = () => {
       <SecondSection />
       <ThirdSection />
       <FourthSection />
-      <FifthSection/>
-      <SixthSection/>
-      <SeventhSection/>
-      <EightSection/>
-      <NinthSection/>
-      <TenthSection/>
+      <FifthSection />
+      <SixthSection />
+      <SeventhSection />
+      <EightSection />
+      <NinthSection />
+      <TenthSection />
     </div>
   );
 };

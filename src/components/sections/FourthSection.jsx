@@ -2,7 +2,7 @@ import React from "react";
 
 const FourthSection = () => {
   return (
-    <div className="h-screen w-screen mb-64 lg:mb-0">
+    <div className="h-screen w-screen mb-64 lg:mb-20">
       <div className="flex w-full flex-col lg:flex-row justify-center lg:items-start items-center lg:justify-between px-20 space-x-8">
         <div className="flex mb-16 lg:mb-0 justify-center lg:items-start items-center flex-col w-full lg:w-2/4">
           <div className="font-bold font-dm-sans text-48 mb-4 text-customTextColor">
