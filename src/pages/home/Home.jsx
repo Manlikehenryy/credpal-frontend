@@ -6,7 +6,7 @@ import FifthSection from "../../components/sections/FifthSection";
 import SixthSection from "../../components/sections/SixthSection";
 import SeventhSection from "../../components/sections/SeventhSection";
 import EightSection from "../../components/sections/EightSection";
-import NinethSection from "../../components/sections/NinethSection";
+import NinthSection from "../../components/sections/NinthSection";
 import TenthSection from "../../components/sections/TenthSection";
 
 import React from "react";
@@ -22,7 +22,7 @@ const Home = () => {
       <SixthSection/>
       <SeventhSection/>
       <EightSection/>
-      <NinethSection/>
+      <NinthSection/>
       <TenthSection/>
     </div>
   );

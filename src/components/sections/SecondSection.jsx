@@ -2,19 +2,25 @@ import React from "react";
 
 const SecondSection = () => {
   return (
-    <div className="h-screen w-screen ">
-      <div className="flex flex-col mt-10">
+    <div className="mx-auto font-poppins mb-32 px-5 md:px-0 w-full md:max-w-[min(1330px,calc(100%-1rem))] md:w-[83.125rem] ">
+      
+        <div className="mt-20">
         <div className="font-bold text-40 text-center">
           Our customers love us
         </div>
-        <div className="font-normal text-24 text-center text-gray-400">
+        <div className="mt-5 mb-16 font-normal text-24 text-center text-gray-400">
           Read what they have to say
+        </div>
         </div>
 
         
 
-        <div className="w-full flex mt-16 pl-20 overflow-hidden">
-          <div className="relative p-6 mx-4 bg-customLightBlue text-black shadow-md rounded-lg w-1/4 h-304">
+        
+
+        <div className="flex flex-col gap-">
+          <div className="overflow-x-auto">
+          <div className="flex flex-row gap-6 pb-10">
+          <div className="relative bg-[#F9FAFB] flex flex-col flex-shrink-0 gap-4 p-8 w-[min(24rem,100%)]">
             <div className="flex flex-col">
               <div className="flex">
                 <div className="mx-2">
@@ -32,13 +38,13 @@ const SecondSection = () => {
                 </p>
               </div>
 
-              <div className="absolute bottom-5 mx-2 mt-4">
+              <div className="absolute bottom-3 mx-2 mt-4">
                 <img src="/rating.png" width={127.5} height={20} alt="" />
               </div>
             </div>
           </div>
 
-          <div className="relative p-5 mx-4 bg-customLightBlue text-black shadow-md rounded-lg w-1/4 h-304">
+          <div className="relative bg-[#F9FAFB] flex flex-col flex-shrink-0 gap-4 p-8 w-[min(24rem,100%)]">
             <div className="flex flex-col">
               <div className="flex">
                 <div className="mx-2">
@@ -56,13 +62,13 @@ const SecondSection = () => {
                 </p>
               </div>
 
-              <div className="absolute bottom-5 mx-2 mt-4">
+              <div className="absolute bottom-3 mx-2 mt-4">
                 <img src="/rating.png" width={127.5} height={20} alt="" />
               </div>
             </div>
           </div>
 
-          <div className="relative p-5 mx-4 bg-customLightBlue text-black shadow-md rounded-lg w-1/4 h-304">
+          <div className="relative bg-[#F9FAFB] flex flex-col flex-shrink-0 gap-4 p-8 w-[min(24rem,100%)]">
             <div className="flex flex-col">
               <div className="flex">
                 <div className="mx-2">
@@ -80,13 +86,13 @@ const SecondSection = () => {
                 </p>
               </div>
 
-              <div className="absolute bottom-5 mx-2 mt-4">
+              <div className="absolute bottom-3 mx-2 mt-4">
                 <img src="/rating.png" width={127.5} height={20} alt="" />
               </div>
             </div>
           </div>
 
-          <div className="relative p-5 mx-4 bg-customLightBlue text-black shadow-md rounded-lg w-1/4 h-304">
+          <div className="relative bg-[#F9FAFB] flex flex-col flex-shrink-0 gap-4 p-8 w-[min(24rem,100%)]">
             <div className="flex flex-col">
               <div className="flex">
                 <div className="mx-2">
@@ -104,13 +110,15 @@ const SecondSection = () => {
                 </p>
               </div>
 
-              <div className="absolute bottom-5 mx-2 mt-4">
+              <div className="absolute bottom-3 mx-2 mt-4">
                 <img src="/rating.png" width={127.5} height={20} alt="" />
               </div>
             </div>
           </div>
+          </div>
+          </div>
         </div>
-      </div>
+   
     </div>
   );
 };

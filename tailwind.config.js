@@ -45,11 +45,18 @@ export default {
         '60': '60%',
         '80': '80%',
         '90': '90%',
+        '35': '35%',
       },
       height:{
         '304':'304px',
         '400':'400px',
         '94vh': '94.4vh',
+      },
+      fontFamily:{
+        'poppins':['Poppins', 'sans-serif'],
+        'dm-sans':['DM-Sans', 'sans-serif'],
+        'inter':['Inter', 'sans-serif'],
+        'public-sans':['Public-Sans', 'sans-serif']
       }
     },
   },
